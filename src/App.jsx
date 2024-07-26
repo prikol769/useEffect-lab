@@ -3,7 +3,6 @@ import Form from "./components/Form";
 import MovieDisplay from "./components/MovieDisplay";
 
 function App() {
-  console.log(import.meta.env.VITE_API_KEY);
   const [movie, setMovie] = useState(null);
 
   const getMovie = async (searchTerm) => {
