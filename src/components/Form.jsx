@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Form = ({ movieSearch }) => {
-  const [formData, setFormData] = useState({ searchTerm: "" });
+  const [formData, setFormData] = useState({ searchTerm: "shrek" });
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
